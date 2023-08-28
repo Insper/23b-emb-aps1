@@ -8,7 +8,7 @@ env:
   SRC_CODE: firmware/src/main.c
 
 jobs:
-  rules_basic_variable:
+  code_quality:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
